@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.main-text{
+    display:flex ;
+    align-self: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #fff;
+}
+
+main .drum-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 60px;
+}
+
+.drum-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.drum-buttons button{
+    padding: 1rem 2rem;
+    margin: 1rem;
+    background-color: burlywood;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.drum-buttons button:hover{
+    background-color: bisque;
+}
